@@ -1,0 +1,35 @@
+.place {
+    max-width: 984px;
+    margin-bottom: 80px;
+}
+
+.place:last-of-type {
+    margin-bottom: 0;
+}
+
+@media (max-width: 1024px) {
+    .place {
+        max-width: 928px;
+    }
+}
+
+@media (max-width: 768px) {
+    .place {
+        max-width: 720px;
+        margin-bottom: 73px;
+    }
+}
+
+
+
+@media (max-width: 665px) {
+    .place {
+        max-width: 425px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 50px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

@@ -1,0 +1,9 @@
+.place__content{
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width:660px) {
+    .place__content {
+        flex-direction: column;
+    }
+}
