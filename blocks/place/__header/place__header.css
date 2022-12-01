@@ -19,7 +19,7 @@
     }
 }
 
-@media (max-width: 665px) {
+@media (max-width: 700px) {
     .place__header {
         flex-direction: column;
         max-width: 390px;

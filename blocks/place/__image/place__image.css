@@ -19,7 +19,7 @@
     }
 }
 
-@media (max-width: 665px) {
+@media (max-width: 700px) {
     .place__image {
         margin-bottom: 32px;
     }

@@ -1,5 +1,5 @@
 .header__lang-link {
-    font-family: 'Inter',Arial, sans-serif;;
+    font-family: Inter, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -10,6 +10,7 @@
     color: #FFFFFF;
     text-decoration: none;
 }
+
 /*убрать margin-raght для последней ссылки*/
 .header__lang-link:last-of-type {
     margin-right: 0;
@@ -19,5 +20,10 @@
     .header__lang-link {
         font-size: 18px;
         line-height: 20px;
+        margin-right: 18px;
+    }
+
+    .header__lang-link:last-of-type {
+        margin-right: 0;
     }
 }

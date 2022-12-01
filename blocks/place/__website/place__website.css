@@ -11,6 +11,11 @@
         width: 456px;
     }
 }
+@media (max-width: 900px) {
+    .place__website {
+        width: 340px;
+    }
+}
 
 @media (max-width: 768px) {
     .place__website {

@@ -16,6 +16,7 @@
 @media (max-width:768px) {
     .intro {
         max-width: 720px;
+        padding-top: 88px;
     }
 }
 

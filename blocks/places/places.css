@@ -11,6 +11,11 @@
         max-width: 928px;
     }
 }
+@media (max-width: 900px) {
+    .places {
+        max-width: 780px;
+    }
+}
 
 @media (max-width: 768px) {
     .places {
@@ -18,7 +23,7 @@
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 670px) {
     .places {
         max-width: 425px;
         margin-top: 64px;

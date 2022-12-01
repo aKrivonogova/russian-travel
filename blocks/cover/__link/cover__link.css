@@ -14,7 +14,6 @@
     position: relative;
 }
 
-
 .cover__link:hover:after {
     opacity: 0.8;
 }
@@ -37,6 +36,7 @@
     .cover__link {
         max-width: 768px;
         min-height: 480px;
+        margin-top: 90px;
     }
 }
 
