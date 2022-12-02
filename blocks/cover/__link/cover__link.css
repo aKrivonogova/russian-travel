@@ -30,7 +30,11 @@
     transition: opacity 0.3s linear;
     z-index: 1;
 }
-
+@media (max-width: 1024px) {
+    .cover__link {
+        min-height: 640px;
+    }
+}
 
 @media (max-width: 768px) {
     .cover__link {
@@ -51,7 +55,6 @@
 
 @media (max-width: 425px) {
     .cover__link {
-        max-width: 100%;
         min-height: 290;
         margin-top: 66px;
     }
@@ -59,8 +62,6 @@
 
 @media (max-width: 320px) {
     .cover__link {
-        max-width: 100%;
         min-height: 200px;
-        margin-top: 66px;
     }
 }

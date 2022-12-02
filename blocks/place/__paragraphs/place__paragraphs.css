@@ -4,6 +4,7 @@
     flex-direction: column;
 }
 
+
 @media (max-width: 1024px) {
     .place__paragraphs {
         width: 456px;
@@ -27,7 +28,5 @@
 @media (max-width: 420px) {
     .place__paragraphs {
         max-width: 288px;
-        margin-right: auto;
-        margin-left: auto;
     }
 }

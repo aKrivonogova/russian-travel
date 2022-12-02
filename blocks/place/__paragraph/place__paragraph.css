@@ -1,5 +1,5 @@
 .place__paragraph {
-    font-family: 'Inter';
+    font-family: Inter, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -9,18 +9,21 @@
     max-width: 484px;
 }
 
+.place__paragraph_mb0{
+    margin-bottom: 0 !important;
+}
 
-
+.place__paragraph:first-of-type {
+    margin-bottom: 26px;
+}
 
 @media (max-width: 1024px) {
     .place__paragraph {
         max-width: 456px;
         margin-top: 0;
     }
-
     .place__paragraph:first-of-type {
         margin-bottom: 26px;
-        margin-bottom: 27px;
     }
 }
 
@@ -29,7 +32,6 @@
         max-width: 352px;
         font-size: 16px;
         line-height: 26px;
-
         margin-top: 0;
     }
 
@@ -43,7 +45,5 @@
         max-width: 288px;
         font-size: 16px;
         line-height: 26px;
-        margin-top: 32px;
-        margin-bottom: 0;
     }
 }

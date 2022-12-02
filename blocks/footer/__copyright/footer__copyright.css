@@ -8,10 +8,10 @@
     text-align: right;
     color: white;
     margin-top: 0;
-    margin-bottom: 24px;
+    margin-bottom: 0;
 }
 
-@media (max-width: 665px) {
+@media (max-width: 660px) {
     .footer__copyright {
         text-align: left;
         line-height: 14px;
