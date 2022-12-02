@@ -1,4 +1,4 @@
-.place__paragraph, .place__paragraph_mb0{
+.place__paragraph{
     font-family: Inter, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -12,14 +12,11 @@
     margin-bottom: 26px;
 }
 
-.place__paragraph_mb0{
-    margin-bottom:0;
-}
 
 
 
 @media (max-width: 1024px) {
-    .place__paragraph, .place__paragraph_mb0 {
+    .place__paragraph{
         max-width: 456px;
         margin-top: 0;
     }
@@ -29,20 +26,19 @@
 }
 
 @media (max-width: 768px) {
-    .place__paragraph, .place__paragraph_mb0 {
+    .place__paragraph {
         max-width: 352px;
         font-size: 16px;
         line-height: 26px;
         margin-top: 0;
     }
-
     .place__paragraph:first-of-type {
         margin-bottom: 25px;
     }
 }
 
 @media (max-width: 425px) {
-    .place__paragraph,.place__paragraph_mb0{
+    .place__paragraph{
         max-width: 288px;
         font-size: 16px;
         line-height: 26px;
