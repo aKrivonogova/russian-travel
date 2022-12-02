@@ -17,7 +17,7 @@
     }
 }
 
-@media (max-width: 351px) {
+@media (max-width: 352px) {
     .photo-grid__item {
         width: 288px;
         height: 216px;
