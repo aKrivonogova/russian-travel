@@ -47,7 +47,7 @@
     }
 }
 
-@media (max-width:320px) {
+@media (max-width:351px) {
     .photo-grid {
         max-width: 288px;
     }

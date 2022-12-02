@@ -30,5 +30,6 @@
     .place__header {
         max-width: 288px;
         flex-direction: column;
+        margin-bottom: 32px;
     }
 }

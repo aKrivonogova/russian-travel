@@ -24,8 +24,7 @@
         margin-bottom: 32px;
     }
 }
-
-@media (max-width: 320px) {
+@media (max-width: 351px) {
     .place__image {
         width: 320px;
         height: 320px;
