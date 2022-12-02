@@ -1,4 +1,4 @@
-.place__paragraph {
+.place__paragraph, .place__paragraph_mb0{
     font-family: Inter, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -8,14 +8,15 @@
     margin: 0;
     max-width: 484px;
 }
-
-.place__paragraph_mb0{
-    margin-bottom: 0 !important;
-}
-
 .place__paragraph:first-of-type {
     margin-bottom: 26px;
 }
+
+.place__paragraph_mb0{
+    margin-bottom:0;
+}
+
+
 
 @media (max-width: 1024px) {
     .place__paragraph {
